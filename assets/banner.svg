@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Samuel Cagnani — Data &amp; Analytics, Ciência de Dados e IA aplicada</title>
+  <desc id="desc">Banner escuro com grid, nome de Samuel Cagnani e um grafo de dados com o monograma SC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#081a2e"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.82" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="0.12" cy="0.9" r="0.5">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <rect width="1280" height="320" fill="url(#glowCyan)"/>
+  <rect width="1280" height="320" fill="url(#glowGreen)"/>
+  <rect x="0" y="0" width="1280" height="4" fill="#22d3ee" opacity="0.85"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="80" y="72" fill="#22d3ee" font-size="14" letter-spacing="4">DATA · AI · SOFTWARE</text>
+    <text x="80" y="150" fill="#e2e8f0" font-size="58" font-weight="700" letter-spacing="-1.5">Samuel <tspan fill="#22d3ee">Cagnani</tspan></text>
+    <text x="80" y="194" fill="#94a3b8" font-size="19" letter-spacing="0.2">Data &amp; Analytics · Ciência de Dados · IA aplicada</text>
+    <g fill="#64748b" font-size="12" letter-spacing="2">
+      <text x="80" y="256">IFSULDEMINAS</text>
+      <text x="244" y="256">AMBEV TECH</text>
+      <text x="388" y="256">GOOGLE STUDENT AMBASSADOR</text>
+    </g>
+    <g fill="#1e3a5f">
+      <rect x="228" y="247" width="1" height="12"/>
+      <rect x="372" y="247" width="1" height="12"/>
+    </g>
+  </g>
+  <g transform="translate(1055 160)">
+    <circle r="118" fill="none" stroke="#164e63" stroke-width="1" opacity="0.8"/>
+    <circle r="86" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle r="58" fill="#0b1626" stroke="#22d3ee" stroke-width="1.5"/>
+    <text x="0" y="12" text-anchor="middle" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="700">SC</text>
+    <g stroke="#164e63" stroke-width="1">
+      <line x1="0" y1="-118" x2="0" y2="-86"/>
+      <line x1="102" y1="59" x2="74" y2="43"/>
+      <line x1="-102" y1="59" x2="-74" y2="43"/>
+    </g>
+    <circle cx="0" cy="-118" r="5" fill="#22d3ee"/>
+    <circle cx="102" cy="59" r="5" fill="#34d399"/>
+    <circle cx="-102" cy="59" r="5" fill="#a5b4fc"/>
+    <circle cx="0" cy="-86" r="3" fill="#22d3ee"/>
+    <circle cx="74" cy="43" r="3" fill="#34d399"/>
+    <circle cx="-74" cy="43" r="3" fill="#a5b4fc"/>
+  </g>
+</svg>
